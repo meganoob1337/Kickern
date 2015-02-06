@@ -18,4 +18,11 @@ public class KickerList {
     {
         list = new ArrayList<Kicker>();
     }
+    public void initList(int nr)
+    {
+        for(int i = 1;i < nr+1;++i)
+        {
+            list.add(new Kicker(i));
+        }
+    }
 }
