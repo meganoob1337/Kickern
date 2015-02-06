@@ -3,12 +3,15 @@ package de.Meganoob1337;
 /**
  * Created by Andrei on 06.02.2015.
  */
+
+// Position 0 = Defense
+//Position 1 = Offense
 public class Player {
     private String name;
-    private String position;
+    private int position;
 
 
-    public Player(String pname,String pos)
+    public Player(String pname,int pos)
     {
         name = pname;
         position = pos;
@@ -18,7 +21,7 @@ public class Player {
     {
         return name;
     }
-    public String getPosition()
+    public int getPosition()
     {
         return position;
     }
